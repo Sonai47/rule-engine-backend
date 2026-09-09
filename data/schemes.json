@@ -1,0 +1,238 @@
+[
+  {
+    "id": 1,
+    "name": "Test Micro Finance Scheme",
+    "description": "Testing scheme for small micro business loans",
+    "purpose": "business",
+    "rules": [
+      {
+        "field": "is_sc",
+        "operator": "=",
+        "value": true
+      },
+      {
+        "field": "annual_family_income",
+        "operator": "<=",
+        "value": 500000
+      },
+      {
+        "field": "loan_amount",
+        "operator": "<=",
+        "value": 140000
+      }
+    ],
+    "activities": [
+      "grocery_retail",
+      "tailoring",
+      "small_manufacturing"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Test SC Business Term Loan Scheme",
+    "description": "Testing scheme for SC entrepreneurs",
+    "purpose": "business",
+    "rules": [
+      {
+        "field": "is_sc",
+        "operator": "=",
+        "value": true
+      },
+      {
+        "field": "annual_family_income",
+        "operator": "<=",
+        "value": 500000
+      },
+      {
+        "field": "loan_amount",
+        "operator": "<=",
+        "value": 300000
+      },
+      {
+        "field": "project_cost",
+        "operator": "<=",
+        "value": 500000
+      }
+    ],
+    "activities": [
+      "grocery_retail",
+      "tailoring",
+      "small_manufacturing"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Test Agriculture Credit Scheme",
+    "description": "Testing scheme for agricultural projects",
+    "purpose": "agriculture",
+    "rules": [
+      {
+        "field": "annual_family_income",
+        "operator": "<=",
+        "value": 400000
+      },
+      {
+        "field": "loan_amount",
+        "operator": "<=",
+        "value": 500000
+      }
+    ],
+    "activities": [
+      "farming",
+      "dairy_farming",
+      "poultry"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Test High Income Entrepreneur Scheme",
+    "description": "Testing scheme for high income applicants",
+    "purpose": "business",
+    "rules": [
+      {
+        "field": "annual_family_income",
+        "operator": ">=",
+        "value": 1000000
+      },
+      {
+        "field": "loan_amount",
+        "operator": "<=",
+        "value": 2000000
+      }
+    ],
+    "activities": [
+      "grocery_retail",
+      "technology_services"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Test Women & SC Skilled Craft Scheme",
+    "description": "Testing scheme for artisan crafts",
+    "purpose": "business",
+    "rules": [
+      {
+        "field": "is_sc",
+        "operator": "=",
+        "value": true
+      },
+      {
+        "field": "loan_amount",
+        "operator": "<=",
+        "value": 500000
+      }
+    ],
+    "activities": [
+      "pottery",
+      "weaving",
+      "handicrafts"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Test Low Income SC Support Scheme",
+    "description": "Testing scheme with lower income ceiling",
+    "purpose": "business",
+    "rules": [
+      {
+        "field": "is_sc",
+        "operator": "=",
+        "value": true
+      },
+      {
+        "field": "annual_family_income",
+        "operator": "<=",
+        "value": 300000
+      }
+    ],
+    "activities": [
+      "grocery_retail",
+      "tailoring"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Test General Retail Business Scheme",
+    "description": "Testing general scheme for retail businesses",
+    "purpose": "business",
+    "rules": [
+      {
+        "field": "loan_amount",
+        "operator": "<=",
+        "value": 500000
+      },
+      {
+        "field": "project_cost",
+        "operator": "<=",
+        "value": 400000
+      }
+    ],
+    "activities": [
+      "grocery_retail",
+      "clothing_store",
+      "mobile_repair"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Test Non-SC Enterprise Loan Scheme",
+    "description": "Testing scheme restricted to non-SC category",
+    "purpose": "business",
+    "rules": [
+      {
+        "field": "is_sc",
+        "operator": "=",
+        "value": false
+      },
+      {
+        "field": "loan_amount",
+        "operator": "<=",
+        "value": 500000
+      }
+    ],
+    "activities": [
+      "grocery_retail",
+      "tailoring"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Test Large Scale Project Assistance",
+    "description": "Testing scheme requiring higher minimum project cost",
+    "purpose": "business",
+    "rules": [
+      {
+        "field": "project_cost",
+        "operator": ">=",
+        "value": 1000000
+      }
+    ],
+    "activities": [
+      "grocery_retail",
+      "manufacturing"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Test Urban Retail Expansion Scheme",
+    "description": "Testing scheme for retail expansion",
+    "purpose": "business",
+    "rules": [
+      {
+        "field": "annual_family_income",
+        "operator": "<=",
+        "value": 600000
+      },
+      {
+        "field": "loan_amount",
+        "operator": "<=",
+        "value": 250000
+      }
+    ],
+    "activities": [
+      "grocery_retail",
+      "electronics"
+    ]
+  }
+]
+

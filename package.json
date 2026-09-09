@@ -1,0 +1,18 @@
+{
+  "name": "rule-engine",
+  "version": "1.0.0",
+  "description": "Deterministic Rule Engine MVP",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node index.ts",
+    "test-node": "tsc && node dist/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
+
